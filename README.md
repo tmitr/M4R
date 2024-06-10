@@ -2,13 +2,10 @@
 
 ## Top Level Idea:
 
-1. Provide liquidity on Uniswap v3 within a range
-2. Hedge ImPL using options on Centralised exchange
+1. optimally provide liquidity on Uniswap v3 within a range
 
-*Objectives*:
-- model the liquidity dynamics (perhaps using traditional order book techniques)
-- find the optimal hedge / LP interval (jointly?) with respect to some utility
-- thereby exploiting dynamics across exchanges
+
+
 
 *First POA*:
 - Understand the liquidity with the 'histogram' approach
@@ -17,7 +14,7 @@
     1. Understand the problem/data -> empirical study
     2. Understand how to model dynamics (traditional methods + empirical observations)
     3. How to setup utility/objective
-    4. How to solve (dynamic programming / RL)
+    
 
 ## Data:
 
